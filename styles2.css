@@ -1,40 +1,50 @@
 
 h1{
-	font-style: italic;
-	color: violet;
-	background-color: blue;
-	font-family: helvetica;
+	font-size: 65px;
+	font-style: bold;
+	color: yellow;
+	background-color: palegreen;
+	font-family: baskerville;
 }
 
 h2 {
-	font-family: times new roman, sans-serif;
+	font-size: 55px;
+	font-family: futura;
+	background-color: palegreen;
 	color: orange;
 }
 
 h3{
-	color: pink;
-	background-color: black;
+	font-size: 45px;
+	color: purple;
+	background-color: red;
 }
 
 p {
-	font-size: 18px;
+	font-size: 25px;
 	font-family: helvetica;
 	line-height: 26px;
-	color: lightblue;
+	color: palegreen;
 }
 
 ul{
-	color: red;
-	line-height: 45px;
+	
+	font-size: 18px;
+	color: blue;
+	line-height: 20px;
+	letter-spacing: 5px;
 }
 
 ol{
-	color: red;
-	background-color: black;
+	font-size: 18px;
+	color: blue;
+	line-height: 20px;
+	letter-spacing: 5px;
 }
 
 figure{
-	color: white;
-	background-color: black;
+	font-size: 20px;
+	color: red;
+	background-color: pink;
 }
 
