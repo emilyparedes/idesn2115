@@ -1,0 +1,44 @@
+/* Put your CSS here. */
+
+h1{
+    font-family: georgia;
+    line-height: 10px;
+}
+
+h2{
+    font-family: georgia;
+    font-weight: normal;
+    font-size: 20px;
+    font-variant-caps: all-petite-caps;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: verdana;
+    text-transform: uppercase;
+    color: dimgray;
+}
+
+p.green{
+    font-family: helvetica;
+    color: limegreen;
+    font-size: 18px;
+}
+
+p.blue{
+    font-family: serif;
+    color: navy;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+p.pink{
+    color: deeppink;
+    font-family: american typewriter;
+    font-size: 18px;
+    word-spacing: 8px;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
+
