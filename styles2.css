@@ -1,0 +1,40 @@
+
+h1{
+	font-style: italic;
+	color: violet;
+	background-color: blue;
+	font-family: helvetica;
+}
+
+h2 {
+	font-family: times new roman, sans-serif;
+	color: orange;
+}
+
+h3{
+	color: pink;
+	background-color: black;
+}
+
+p {
+	font-size: 18px;
+	font-family: helvetica;
+	line-height: 26px;
+	color: lightblue;
+}
+
+ul{
+	color: red;
+	line-height: 45px;
+}
+
+ol{
+	color: red;
+	background-color: black;
+}
+
+figure{
+	color: white;
+	background-color: black;
+}
+
