@@ -14,6 +14,7 @@ h2{
 }
 
 h3{
+    visibility: hidden;
     font-family: verdana;
     text-transform: uppercase;
     color: dimgray;
@@ -36,9 +37,11 @@ p.pink{
     color: deeppink;
     font-family: american typewriter;
     font-size: 18px;
-    word-spacing: 8px;
+/*    word-spacing: 8px;*/
     line-height: 23px;
     letter-spacing: 1px;
 }
 
-
+p{
+    color: black;
+}
