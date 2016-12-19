@@ -8,208 +8,230 @@
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
 
-
+#container {
+            background-color: #e2f2f0 ;
+            margin-left:auto;
+            margin-right: auto;
+            width: 80%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            padding: 5%;
+        }
 
 h1{
     font-family: "eloquent-jf-pro",sans-serif;
     font-style: italic;
     font-weight: 400;
-    font-size: 3em;
-}
+    font-size: 10em;
+    background-image: url("house.png");
+    background-repeat: no-repeat;
+    padding: 600px 200px 600px 0px;
+    color: white;
+    }
 
 
 
 h2{
     font-family: "eloquent-jf-pro",sans-serif;
-    font-style: italic;
     font-weight: 400;
     font-size: 5em;
-    margin-top: -50px;
-}
+    margin-top: -775px;
+    z-index: 15;
+    color: gray;
+    }
 
-h1, h2{
-    background-image: url("rocks%20in%20sand%201.jpg");
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: 5px #b2c15f;
-}
 
 /* basic elements */
 html {
-	margin: 0;
-	padding: 0;
+    background-color: #e2f2f0;
 	}
 body { 
 	font: 75% helvetica, sans-serif;
-	line-height: 1.88889;
+	line-height: 2;
 	color: #555753; 
-	background-image:  url("zengarden.jpg") top left; 
-	margin: 0; 
-	padding: 0;
-	}
-/*
-p { 
-	margin-left: 100px; 
-	text-align: justify;
-    background:#7cc576;
-	}
-*/
+    }
+
 h3 { 
-	font: bold 2em helvetica, sans-serif;
+	font-family: "mrs-eaves",sans-serif !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35pt;
 	letter-spacing: 1px; 
 	padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 0px;
-    margin-top: 300px; 
 	color: #000;
-/*    background: black;*/
-
+    line-height: 0;
 	}
+
+
+.summary a:link{
+    text-decoration: none; 
+	color: #bafdb5;  
+  }
+
 a:link { 
-	font-weight: bold italic; 
+	text-decoration: none; 
+	color: #fff;
+	}
+a:visited {  
 	text-decoration: underline; 
 	color: #fff;
 	}
-a:visited { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #D4CDDC;
-	}
-a:hover, a:focus, a:active { 
-	text-decoration: underline; 
-	color: #9bebff;
-	}
-abbr {
-	border-bottom: none;
-	}
-
-
-/* specific divs */
-/*
-.page-wrapper { 
-    no-repeat top left; 
-	padding: 0 175px 0 110px;  
-	margin: 0; 
-	position: relative;
-	}
-*/
 
 .intro { 
 	min-width: 470px;
 	width: 100%;
-	}
+    }
 
-
-header {
-	padding-top: 0px;
-	height: 0px;
-}
 
 .summary {
 	clear: both; 
-    
-	margin: 0px 100px 20px 0px; 
-	width: 400px; 
-	float: right;
+	width: 800px; 
+    text-align: center;
+    position: relative;
+    left: 1500px;
+    top: -300px;
+    padding: 20px 100px 50px 100px;
+    z-index: 20;   
+    font-size: 25pt;
+    color: white;
+    font-style: bold;
+    background-color: grey;
 	}
-.summary p {
-	font:2em georgia; 
-	text-align: center;
-    line-height: 40px;
-    margin-top: 200px;
-/*    background-image:  url("rockformation.jpg");*/
-    background-color: #b2c15f;
-}
+
 
 .preamble {
-	clear: right; 
-	padding: 0px 10px 0 10px;
+    position: relative;
+    top: -400px;
+    left: 650px;
+    width: 800px;
+    background-color: rgba(195, 249, 167, .75);
+    z-index: 10;
+    padding: 20px 100px 30px 100px;
+    font-size: 16pt;
 	}
+
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
-	}
+    position: absolute;
+    z-index: 8;
+    }
+
+.explanation{
+    position: relative;
+    top: -575px;
+    left: 1250px;
+    width: 1000px;
+    background-color: rgba(242, 249, 155, .75);
+    z-index: 5;
+    padding: 180px 80px 20px 100px;
+    font-size: 16pt;
+    }
+
+.participation{
+    position: relative;
+    top: -785px;
+    width: 700px;
+    background-color: rgba(247, 178, 231, .75);
+    padding: 140px 100px 20px 925px;
+    font-size: 16pt;
+    }
+
+.benefits{
+    width: 550px;
+    position: relative;
+    top: -1225px;
+    left: 1630px;
+    background-color: rgba(255, 191, 77, .65);
+    padding: 450px 20px 175px 20px;
+    font-size: 16pt;
+    }
+
+.requirements{
+    width: 1100px;
+    position: relative;
+    top: -1385px;
+    left: 1200px;
+    background-color: rgba(118, 221, 206, .75);
+    padding: 100px 70px 20px 20px;
+    font-size: 16pt;
+    }
 
 footer { 
-	text-align: center; 
+	text-align: right; 
+    position: relative;
+    left: 250px;
+    top: -750px;
+    background-color: #a4d2a1;
+    font-size: 25pt;
+    padding: 10px 10px 10px 10px;
+    z-index: 10;
 	}
 footer a:link, footer a:visited { 
-	margin-right: 20px; 
+    text-decoration: underline;
+	margin-right: 100px; 
 	}
 
+footer a:link{
+    text-decoration: none;
+}
+
+
 .sidebar {
-	margin-left: 0px; 
-    margin-top: 350px;
-	position: absolute; 
-	top: 0; 
+	position: relative; 
+    width: 1000px;
 	left: 0;
-    background-color:#7cbfaa;
+    top: 1525px;
+    background-color:lightgray;
+    padding: 0px 0px 0px 0px;
+    font-size: 20pt;
+    z-index: 20;
 	}
 
 .sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
-	padding: 10px; 
-	margin-top: 0px; 
-	width: 200px; 
+	padding: 20px; 
 	}
 
 .sidebar h3.select { 
-	margin: 10px 0 5px 0; 
-	width: 97px; 
-	height: 16px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
+    color: #494a49;
 	}
 
 .sidebar h3.archives { 
-	margin: 25px 0 5px 0; 
-	width:57px; 
-	height: 14px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
+    padding: 50px 0px 0px 0px;
+    color: #494a49;
 	}
 
 .sidebar h3.resources { 
-	margin: 25px 0 5px 0; 
-	width:63px; 
-	height: 10px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
+    padding: 50px 0px 0px 0px;
+    color: #494a49;
 	}
-
 
 .sidebar ul {
 	margin: 0;
 	padding: 0;
 	}
+
+aside .wrapper .design-selection .design-name {
+    display: block;
+    }
+
+aside .wrapper a.designer-name {
+    color: #494a49 !important;
+    }
+
 .sidebar li {
-	line-height: 1.3em; 
+	line-height: 1.5; 
 	display: block; 
 	padding-top: 5px; 
 	margin-bottom: 5px;
 	list-style-type: none;
 	}
 .sidebar li a:link {
-	color: #988F5E;
+    text-decoration: none;
+	color: white;
 	}
-/*
 .sidebar li a:visited {
-	color: #B3AE94;
+    text-decoration: underline;
+    color: white;
 	}
-*/
-
-
-.extra1 {
-	position: absolute; 
-	top: 40px; 
-	right: 0; 
-	width: 148px; 
-	height: 110px;
-	}
-
